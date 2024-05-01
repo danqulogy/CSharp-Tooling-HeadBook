@@ -2,7 +2,7 @@
 
 ## Logging
 ### Libraries
-- Serilog
+- Serilog: Leads the pack and is the go-to library for logging in .Net applications
 
 ### Sinks
 - SQL and NoSQL database
