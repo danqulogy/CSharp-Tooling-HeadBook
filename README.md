@@ -13,4 +13,8 @@
 ### Logging Services
 - Splunk
 - Datadog
-- Loggly 
+- Loggly
+
+### Structure Logging Tools & Platforms
+- [Seq](https://datalust.co/seq)
+  The self-hosted search, analysis, and alerting server built for structured logs and traces.
