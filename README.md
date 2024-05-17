@@ -63,3 +63,7 @@
   - Dockerfile
   - Program.cs
 ```
+ - The project is organized in **Model**, **Features**, **Data** and **Abstractions**.
+ - **Features** like **CreateProduct** and **GetProduct** have dedicated handlers and endpoint definitions.
+ - The feature folder will be **Products**.
+ - Data folder and Context objects manages database interaction
