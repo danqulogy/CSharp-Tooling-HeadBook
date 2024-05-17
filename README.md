@@ -28,8 +28,38 @@
 ### API Endpoints
 - Carter: Routing and handling of HTTP requests, easier to define API endpoints with clean concise code.
 
+### Object Mapping
+- Mapster: It is a fast, configurable object mapper that simplifies the task of mapping and transforming objects.
+
+### Validation
+- Fluent Validation: For building strongly-typed validation rules ensure inputs are correct before processed.
+
 ## Databases
 
 ### Document Stores
 - PostgreSQL + Marten: Marten turns PostgreSQL into a .NET transactional document store using its JSON columns features. Combines the flexibility of document database with the reliability of relational PostgreSQL database. It allows us to store and query our data as JSON documents.
 - Mongodb.NET
+
+## Project Folder Structure
+### Vertical Slice Architecture
+```
+- Catalog.API
+  + Data
+    - CatalogIntitialData.cs
+  + Exceptions
+    - ProductNotFoundException.cs
+  + Models
+    - Product.cs
+  + Products
+    + CreateProduct
+      - CreateProductEndpoint.cs
+      - CreateProductHandler.cs
+    + DeleteProduct
+    + GetProductByCategory
+    + GetProductById
+    + GetProducts
+    + UpdateProduct
+  - app.settings.json
+  - Dockerfile
+  - Program.cs
+```
