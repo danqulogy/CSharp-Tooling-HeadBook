@@ -2,7 +2,16 @@
 
 ## Caching
 ### Libraries
-- [CacheCow](https://github.com/aliostad/CacheCow): An implementation of HTTP Caching in .NET Core and 4.5.2+ for both the client and the server
+#### Private Caches:
+- [CacheCow.Client](https://github.com/aliostad/CacheCow): An implementation of HTTP Caching in .NET Core and 4.5.2+ for both the client and the server
+#### Shared/Gateway or Full Blown Caches:
+- [Varnish](https://varnish-cache.org)
+- [Apache Traffic Server](https://trafficserver.apache.org)
+- [Squid](https://www.squid-cache.org)
+#### Content Delivery Networks (CDNs):
+- [Azure CDN](https://azure.microsoft.com/services/cdn)
+- [Cloudflare](https://cloudflare.com)
+- [Akamai](https://www.akamai.com)
 
 ## Logging
 ### Libraries
