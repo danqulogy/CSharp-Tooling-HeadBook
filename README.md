@@ -1,5 +1,9 @@
 # CSharp-Tooling-HeadBook
 
+## Caching
+### Libraries
+- [CacheCow](https://github.com/aliostad/CacheCow): An implementation of HTTP Caching in .NET Core and 4.5.2+ for both the client and the server
+
 ## Logging
 ### Libraries
 - [Serilog](https://github.com/serilog/serilog-aspnetcore]): Leads the pack and is the go-to library for logging in .Net applications
